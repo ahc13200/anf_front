@@ -1,0 +1,17 @@
+.ant-popover-inner-content {
+  padding: 4px 10px !important;
+}
+
+.tc-autocomplete {
+  max-height: 240px !important;
+
+  .ant-select-tree li {
+    .ant-select-tree-node-content-wrapper {
+      width: 100%;
+    }
+
+    span.ant-select-tree-switcher.ant-select-tree-switcher-noop {
+      display: none;
+    }
+  }
+}

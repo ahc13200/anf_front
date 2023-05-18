@@ -1,0 +1,228 @@
+.btn_grid.btn_grid_rounded {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.btn_grid.btn_grid_sm {
+  padding: 5px 17px 17px 6px !important
+}
+
+.btn_grid.btn_grid_icon {
+  height: 15px;
+  line-height: normal;
+  width: 15px;
+}
+
+.btn_grid.btn_grid_primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.btn_grid.btn_grid_success {
+  background-color: #18a689;
+  color: #fff;
+}
+
+.btn_grid.btn_grid_info {
+  background-color: #ff8408;
+  color: #fff;
+}
+
+.btn_grid i {
+  padding-right: 0;
+  padding-bottom: 20px;
+  vertical-align: middle;
+
+}
+
+.btn_grid.btn_grid_icon i {
+  width: 11px;
+  padding-right: 0;
+  padding-bottom: 20px;
+  vertical-align: middle;
+}
+
+.btn_grid.btn_grid_danger {
+  background-color: #c75757;
+  color: #fff;
+}
+
+.btn_grid.btn_grid_sm {
+  margin-left: 1px;
+  margin-top: -8px;
+}
+
+.btn_grid {
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-transition: border 0.25s linear, color 0.25s linear, background-color 0.25s linear;
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 7px 24px 8px;
+  transition: border 0.25s linear, color 0.25s linear, background-color 0.25s linear;
+  vertical-align: middle;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.btn_grid {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+/* Sobrescrbiendo AG themes de AGGrid*/
+/*.ag-row {*/
+/*height: 40px !important;*/
+/*}*/
+/* funcionalidades externas*/
+.badge_grid-primary {
+  background-color: #319db5;
+}
+
+.badge_grid {
+  border-radius: 2px;
+  font-weight: 300;
+}
+
+.badge_grid {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 10px;
+}
+
+.badge_clean_filter {
+  margin: 10px;
+  cursor: pointer;
+  float: right !important;
+  background-color: #777;
+}
+
+.badge_refresh {
+  margin: 10px;
+  cursor: pointer;
+  float: right !important;
+  background-color: #777;
+}
+
+.badge_clean_filter i {
+  margin-right: 4px;
+}
+
+.badge_refresh i {
+  margin-right: 4px;
+}
+
+/*Actions buttons*/
+
+.btn_action_group {
+  margin-right: 10px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.btn_action_group > .btn_action {
+  position: relative;
+  float: left;
+}
+
+.btn_action_group > .btn_action:first-child {
+  margin-left: 0;
+}
+
+.btn_action_group .btn_action {
+  margin-right: 0;
+}
+
+.btn_action_group > .btn_action:first-child:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius:20px;
+  border-bottom-left-radius: 20px;
+}
+.btn_action_group > .btn_action:last-child:not(:first-child):not(.dropdown-toggle) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius:20px;
+  border-bottom-right-radius: 20px;
+}
+
+.btn_action_group > .btn_action:first-child {
+  margin-left: 0;
+}
+
+.btn_action {
+  display: inline-block;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-transition: border 0.25s linear, color 0.25s linear, background-color 0.25s linear;
+  border: none;
+  font-size: 14px;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  font-weight: 400;
+  margin-bottom: 10px;
+  touch-action: manipulation;
+  cursor: pointer;
+  padding: 7px 24px 8px;
+  user-select: none;
+  background-image: none;
+  transition: border 0.25s linear, color 0.25s linear, background-color 0.25s linear;
+  vertical-align: middle;
+  -moz-border-radius: 4px;
+}
+.btn_action.delete{
+  background-color: #c75757;
+  color: white;
+}
+.btn_action.add{
+  background-color: black;
+  color: white;
+}
+
+.btn_action_group i {
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 3px;
+  color: white !important;
+}
+
+.div_text_filter {
+  float: right !important;
+}
+
+.text_filter {
+  margin-left: 10px;
+  margin-top: 3px;
+  width: 250px;
+}

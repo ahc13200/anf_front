@@ -1,0 +1,109 @@
+.u-pointer {
+  cursor: pointer !important;
+}
+
+.u-cursor-help {
+  cursor: help !important;
+}
+
+.border-dashed {
+  border: 1px dashed #dee2e6 !important
+}
+
+.u-w-auto {
+  width: auto !important;
+}
+
+.transition-none {
+  transition: none !important
+}
+
+.break-word {
+  overflow-wrap: break-word !important;
+}
+
+.u-absCenter {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+.backface-hidden {
+  backface-visibility: hidden !important;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.u-text-ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+
+.fs-smaller {
+  font-size: smaller !important;
+}
+
+.fs-small {
+  font-size: small !important;
+}
+
+.fs-medium {
+  font-size: medium !important;
+}
+
+.fs-larger {
+  font-size: larger !important;
+}
+
+.w-fit-content {
+  width: fit-content !important;
+}
+
+.h-fit-content {
+  height: fit-content !important;
+}
+
+.u-cover {
+  object-fit: cover;
+}
+
+.justify-center {
+  justify-content: center !important;
+}
+
+.flex-center {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.ant-modal-close:focus {
+  outline: none;
+}
+
+.dashed-primary {
+  color: #67368e !important;
+  background-color: #fff !important;
+  border-color: #67368e !important;
+}
+
+.opacity-4 {
+  opacity: .4;
+}
+
+.disabled {
+  cursor: no-drop;
+  opacity: .4;
+}

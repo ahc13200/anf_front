@@ -1,0 +1,1 @@
+[{"caption":"general","modules":"['general']","icon":"","routes":[]},{"caption":"services","modules":"['services']","icon":"","routes":[{"name":"person_list","module":"services","caption":"Person","icon":"","path":"/services/person_list"}]}]
